@@ -39,6 +39,7 @@ const FAQ = () => {
               </p>
             </div>
           </div>
+          
           <div className="section-2-fee section">
             <div className="title">
               <h1>2.</h1>
@@ -88,6 +89,7 @@ const FAQ = () => {
               </div>
             </div>
           </div>
+          
           <div className="section-3-refund section">
             <div className="title">
               <h1>3.</h1>
@@ -106,6 +108,7 @@ const FAQ = () => {
               </p>
             </div>
           </div>
+          
           <div className="section-4-purchase-product section">
             <div className="title">
               <h1>4.</h1>
