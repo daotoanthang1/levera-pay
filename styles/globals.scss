@@ -3268,7 +3268,7 @@ strong {
               padding-left: -5% !important;
               left: 0 !important;
             }
-            
+
             // .description-main {
             //   position: relative;
             //   overflow: hidden;
@@ -3932,20 +3932,61 @@ strong {
     position: relative;
     margin-left: -16%;
   }
-  .body .others-section .section-6 .list-brands ul .p4 .brand .img-bg{
+  .body .others-section .section-6 .list-brands ul .p4 .brand .img-bg {
     margin-top: 2%;
   }
-  .body .section1-2-3 .section-1-purchase .ant-row .ant-col-lg-10 .description-main{
+  .body
+    .section1-2-3
+    .section-1-purchase
+    .ant-row
+    .ant-col-lg-10
+    .description-main {
     height: auto !important;
-    h1{
+    h1 {
       position: relative;
       height: 100%;
     }
+  }
+  .body-customers
+    .section-1-purchase
+    .section-container
+    .ant-row
+    .ant-col-lg-10
+    ::after {
+    display: none;
+  }
+  .body-customers
+    .section-1-purchase
+    .section-container
+    .ant-row
+    .ant-col-lg-10
+    .title
+    h4 {
+    padding-left: 0;
+  }
+  .body .section-1-purchase .section-container .ant-row .ant-col-lg-10 ::after {
+    display: none;
+  }
+  .body
+    .section-1-purchase
+    .section-container
+    .ant-row
+    .ant-col-lg-10
+    .title
+    h4 {
+    padding-left: 0;
   }
 }
 @media screen and (max-width: 375px) {
   .body .section1-2-3 .section-3-easy-shopping .ant-row .ant-col.ant-col-lg-14 {
     margin-top: 70% !important;
+  }
+  .body-customers
+    .section-1-purchase
+    .section-container
+    .ant-row
+    .ant-col-lg-10 {
+    margin-top: 5%;
   }
 }
 @media screen and (max-width: 320px) {
@@ -3968,5 +4009,12 @@ strong {
   }
   .body .section1-2-3 .section-3-easy-shopping .ant-row .ant-col.ant-col-lg-14 {
     margin-top: 90% !important;
+  }
+  .body-customers
+    .section-1-purchase
+    .section-container
+    .ant-row
+    .ant-col-lg-10 {
+    margin-top: 20%;
   }
 }
