@@ -252,6 +252,7 @@ const customers = () => {
                   </Col>
                 </Row>
               </div>
+            
             </div>
           </div>
         </div>

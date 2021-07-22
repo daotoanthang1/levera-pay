@@ -3848,7 +3848,7 @@ strong {
                 width: 328px !important;
                 height: 242px !important;
                 position: relative !important;
-                left: 12%;
+                // left: 12%;
               }
             }
             .ant-col.ant-col-lg-16 {
@@ -3975,6 +3975,9 @@ strong {
     .title
     h4 {
     padding-left: 0;
+  }
+  .body-customers .section-6 .list-brands ul .p2 .brand .img-bg{
+    left: 13% !important;
   }
 }
 @media screen and (max-width: 375px) {
