@@ -21,7 +21,7 @@ const customers = () => {
         <div className="section-1-purchase">
           <div className="section-container">
             <Row>
-              <Col span={10}>
+              <Col lg={10} sm={24}>
                 <div className="title">
                   <h4>Mua trước,trả sau</h4>
                 </div>
@@ -46,39 +46,47 @@ const customers = () => {
                   </Button>
                 </div>
               </Col>
-              <Col span={14}>
+
+              <Col lg={14} sm={24}>
                 <div className="wrapper-section-1-purchase-right">
-                  <div className="img-main-section-1-purchase">
-                    <img src="https://cdn.pancake.vn/1/s700x900/01/de/d0/df/f407cd52f7b29712b8f5eb79040ebb512a046991f7dc515ad8371888.png"></img>
+                  <div className="img-css">
+                    <div className="img-main-section-1-purchase"></div>
                   </div>
                   <div className="description-product">
                     <div className="wrapper">
-                      <div className="img-background-1"></div>
-                      <div className="text-description">
-                        <div className="middle-text">
-                          <div className="name-product">
-                            <h3>Váy bạc</h3>
+                      <div className="box-description-product">
+                        <div className="text-description">
+                          <div className="img-background-1"></div>
+                          
+                          <div className="middle-text">
+                            <div className="name-product">
+                              <h3>Váy bạc</h3>
+                            </div>
+                            <div className="pay">
+                              <p>Hoặc 6 lần trả góp</p>
+                            </div>
                           </div>
-                          <div className="pay">
-                            <p>Hoặc 6 lần trả góp</p>
+                          
+                          <div className="price-product">
+                            <h2>600k</h2>
                           </div>
                         </div>
-                        <div className="price-product">
-                          <h2>600k</h2>
-                        </div>
+
+                        <div className="img-background-2"></div>
                       </div>
-                      <div className="img-background-2"></div>
                     </div>
                   </div>
+                
                 </div>
               </Col>
             </Row>
           </div>
         </div>
+
         <div className="section-2-action-method">
           <div className="section-container">
             <Row>
-              <Col span={12} className="left">
+              <Col lg={14} md={24} className="left">
                 <div className="title-section-2">
                   <h1>Cách thức hoạt động</h1>
                 </div>
@@ -98,7 +106,6 @@ const customers = () => {
                     <div className="icon-action">
                       <div className="wrapper-img-background w2">
                         <div className="img-background img-2"></div>
-                        <div className="connection-2"></div>
                       </div>
                     </div>
                     <p>
@@ -106,6 +113,7 @@ const customers = () => {
                       chia thành 6 đợt thanh toán.
                     </p>
                   </div>
+                  <div className="connection-2"></div>
                   <div className="element-action">
                     <div className="icon-action">
                       <div className="wrapper-img-background w3">
@@ -120,16 +128,17 @@ const customers = () => {
                 </div>
               </Col>
 
-              <Col span={12} className="right">
+              <Col lg={10} md={24} className="right">
                 <div className="img-background"></div>
               </Col>
             </Row>
           </div>
         </div>
+
         <div className="section-3-easy-shopping section-general">
           <div className="section-container">
             <Row>
-              <Col span={10}>
+              <Col lg={12} md={24}>
                 <div className="img-background-QR"></div>
                 <div className="img-background-people-top"></div>
                 <div className="text-note">
@@ -137,11 +146,13 @@ const customers = () => {
                   <h4>Thanh toán 0đ</h4>
                   <p>Đã vận chuyển</p>
                 </div>
+
                 <div className="img-background-circle"></div>
                 <div className="img-background-connection"></div>
                 <div className="img-background-people-bottom"></div>
               </Col>
-              <Col span={14}>
+
+              <Col lg={12} md={24}>
                 <div className="title">
                   <h4 style={{ color: "white" }}>
                     CÁCH MUA SẮM DỄ DÀNG NHẤT TẠI VIỆT NAM
@@ -150,7 +161,6 @@ const customers = () => {
                 <div className="title-big">
                   <h1
                     style={{
-                      width: "500px",
                       lineHeight: "60px",
                       color: "white",
                     }}
@@ -181,13 +191,14 @@ const customers = () => {
             </Row>
           </div>
         </div>
+
         <div className="section-4-buy">
           <div className="background"></div>
           <div className="section-container">
             <div className="wrapper">
               <div className="bottom-section-4">
                 <Row>
-                  <Col span={8} className="bottom">
+                  <Col lg={8} md={24} className="bottom">
                     <div className="title">
                       <h2>Mua sắm thoả thích. Trả tiền sau.</h2>
                     </div>
@@ -213,17 +224,19 @@ const customers = () => {
                       </ul>
                     </div>
                   </Col>
-                  <Col span={16} className="bottom">
+
+                  <Col lg={16} md={24} className="bottom">
                     <div className="img-background"></div>
                   </Col>
                 </Row>
               </div>
+
               <div className="top-section-4">
                 <Row>
-                  <Col span={8}>
+                  <Col lg={8} md={24}>
                     <div className="img-background"></div>
                   </Col>
-                  <Col span={16}>
+                  <Col lg={16} md={24}>
                     <div className="title">
                       <h2>
                         Thanh toán lần đầu tiên sau khi bạn đã nhận được hàng.
@@ -242,6 +255,7 @@ const customers = () => {
             </div>
           </div>
         </div>
+
         <div className="section-6 ">
           <div className="section-container">
             <div className="title">
@@ -255,18 +269,21 @@ const customers = () => {
                     <div className="img-bg"></div>
                   </div>
                 </li>
+
                 <li className="p2">
                   <div className="img-background"></div>
                   <div className="brand">
                     <div className="img-bg"></div>
                   </div>
                 </li>
+
                 <li className="p3">
                   <div className="img-background"></div>
                   <div className="brand">
                     <div className="img-bg"></div>
                   </div>
                 </li>
+
                 <li className="p4">
                   <div className="img-background"></div>
                   <div className="brand">
@@ -277,6 +294,7 @@ const customers = () => {
             </div>
           </div>
         </div>
+
         <div className="last-section last-2">
           <div className="section-container">
             <div className="wrapper">
@@ -285,7 +303,7 @@ const customers = () => {
                 <div className="img-backgrounds"></div>
                 <h2>Mua sắm ngay, thanh toán sau</h2>
               </div>
-              
+
               <div className="button-start">
                 <Button
                   type="primary"

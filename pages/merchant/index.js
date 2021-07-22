@@ -19,25 +19,28 @@ const merchant = () => {
     <Layout>
       <div className="body">
         <div className="section1-2-3">
-          <div className="section-container">
-            <div className="section-1-purchase">
+          <div className="section-1-purchase">
+            <div className="section-container">
               <Row>
-                <Col span={10}>
+                <Col lg={10} md={24} className="info-section-1">
                   <div className="title">
                     <h4>Mua trước,trả sau</h4>
                   </div>
+                  
                   <div className="description-main">
                     <h1>
                       Bán nhiều hơn bằng cách cung cấp lựa chọn trả góp minh
                       bạch.
                     </h1>
                   </div>
+                  
                   <div className="description-element">
                     <h5>
                       Nền tảng của chúng tôi đã sẵn sàng được tích hợp, đảm bảo
                       cho phép các khoản trả góp ngay lập tức.
                     </h5>
                   </div>
+                  
                   <div className="button-start">
                     <Button
                       type="primary"
@@ -48,20 +51,22 @@ const merchant = () => {
                       <ArrowRightOutlined />
                     </Button>
                   </div>
+                
                 </Col>
-                <Col span={14}>
+                
+                <Col lg={14} md={24} className="img-background-section-1">
                   <div className="wrapper-section-1-purchase-right">
-                    <div className="img-main-section-1-purchase">
-                      <img src="https://cdn.pancake.vn/1/s900x600/e3/61/4d/63/0242fd36929c1ab43c56194054d2c61576b0bf1576faf90c72818d60.png"></img>
-                    </div>
-                    <div className="img-background-section-1-purchase">
-                      <img src="https://cdn.pancake.vn/1/s600x600/2c/17/36/24/29511baf88037637d2c8ff8455ff946c6bee6e554e08b09a12f533b0.png" />
-                    </div>
+                    <div className="img-main-section-1-purchase"></div>
+                    <div className="img-background-section-1-purchase"></div>
                   </div>
                 </Col>
+              
               </Row>
             </div>
-            <div className="section-2-action-method">
+          </div>
+
+          <div className="section-2-action-method">
+            <div className="section-container">
               <div className="title-section-2">
                 <h1>Cách thức hoạt động</h1>
               </div>
@@ -103,12 +108,16 @@ const merchant = () => {
                 </ul>
               </div>
             </div>
-            <div className="section-3-easy-shopping section-general">
+          </div>
+
+          {/* <div className="section-3-easy-shopping section-general">
+            <div className="section-container">
               <Row>
-                <Col span={10}>
+                <Col lg={14} md={24}>
                   <img src="https://cdn.pancake.vn/1/s700x600/f9/8d/49/3b/47325ab1295184b86bb5597117a79d9cb3df1aaaa4e9f3a716d1eff5.png"></img>
                 </Col>
-                <Col span={14}>
+
+                <Col lg={10} md={24}>
                   <div className="title">
                     <h4>CÁCH MUA SẮM DỄ DÀNG NHẤT TẠI VIỆT NAM</h4>
                   </div>
@@ -116,9 +125,9 @@ const merchant = () => {
                     <h1>Niềm tin là tất cả</h1>
                   </div>
                   <div className="description">
-                    Levera Pay cung cấp trải nghiệm mua sắm toàn diện, sứ mệnh
-                    chính của chúng tôi là giúp mọi người mua sắm một cách dễ
-                    dàng.
+                    <strong>Levera Pay</strong> cung cấp trải nghiệm mua sắm
+                    toàn diện, sứ mệnh chính của chúng tôi là giúp mọi người mua
+                    sắm một cách dễ dàng.
                   </div>
                   <div className="button-start">
                     <Button
@@ -134,11 +143,13 @@ const merchant = () => {
               </Row>
             </div>
           </div>
+         */}
         </div>
-        <div className="section-4-our-valid">
+
+        {/* <div className="section-4-our-valid">
           <div className="section-container">
             <Row>
-              <Col span={12} className="left">
+              <Col lg={12} md={24} className="left">
                 <div className="title">Giá trị chúng tôi mang tới</div>
                 <div className="description">
                   Chúng tôi cung cấp cho người mua sự tự tin khi biết tiền của
@@ -146,55 +157,58 @@ const merchant = () => {
                   tiêu.
                 </div>
               </Col>
-              <Col span={12} className="right">
+              <Col lg={12} md={24} className="right">
                 <div className="wrapper-section-4-valid-card">
-                  <div className="element-section-4-valid-card e1">
-                    <div className="icon">
-                      <img src="https://cdn.pancake.vn/1/s300x300/a8/35/94/4f/94f07bd637bb1a2a5980538fe491e54975d087560daf1eaf8fceb462.png" />
+                  <div className="box-section-4">
+                    <div className="element-section-4-valid-card e1">
+                      <div className="icon">
+                        <img src="https://cdn.pancake.vn/1/s300x300/a8/35/94/4f/94f07bd637bb1a2a5980538fe491e54975d087560daf1eaf8fceb462.png" />
+                      </div>
+                      <div className="title-description-icon">
+                        <h3>Tăng tỉ lệ chuyển đổi mua hàng</h3>
+                      </div>
                     </div>
-                    <div className="title-description-icon">
-                      <h3>Tăng tỉ lệ chuyển đổi mua hàng</h3>
+                    <div className="element-section-4-valid-card e2">
+                      <div className="icon">
+                        <img src="https://cdn.pancake.vn/1/s300x300/f4/23/4c/b0/10115211abf77cae25379d728097c5a94ee6ead9bb046c3d2291da36.png" />
+                      </div>
+                      <div className="title-description-icon">
+                        <h3>Khách hàng mời</h3>
+                      </div>
                     </div>
-                  </div>
-                  <div className="element-section-4-valid-card e2">
-                    <div className="icon">
-                      <img src="https://cdn.pancake.vn/1/s300x300/f4/23/4c/b0/10115211abf77cae25379d728097c5a94ee6ead9bb046c3d2291da36.png" />
+                    <div className="element-section-4-valid-card e3">
+                      <div className="icon">
+                        <img src="https://cdn.pancake.vn/1/s300x300/86/03/19/b4/87200fe61193b963ecb7270d18b21c981fe2a978726946720e1eaa89.png" />
+                      </div>
+                      <div className="title-description-icon">
+                        <h3>Ít đổi trả hơn</h3>
+                      </div>
                     </div>
-                    <div className="title-description-icon">
-                      <h3>Khách hàng mời</h3>
-                    </div>
-                  </div>
-                  <div className="element-section-4-valid-card e3">
-                    <div className="icon">
-                      <img src="https://cdn.pancake.vn/1/s300x300/86/03/19/b4/87200fe61193b963ecb7270d18b21c981fe2a978726946720e1eaa89.png" />
-                    </div>
-                    <div className="title-description-icon">
-                      <h3>Ít đổi trả hơn</h3>
-                    </div>
-                  </div>
-                  <div className="element-section-4-valid-card e4">
-                    <div className="icon">
-                      <img src="https://cdn.pancake.vn/1/s300x300/be/d6/10/14/d1e5961020db0f41b4c0116f8534807f057b8ea3a67d978a5bd27b10.png" />
-                    </div>
-                    <div className="title-description-icon">
-                      <h3>Giá trị đặt hàng trung bình cao hơn</h3>
+                    <div className="element-section-4-valid-card e4">
+                      <div className="icon">
+                        <img src="https://cdn.pancake.vn/1/s300x300/be/d6/10/14/d1e5961020db0f41b4c0116f8534807f057b8ea3a67d978a5bd27b10.png" />
+                      </div>
+                      <div className="title-description-icon">
+                        <h3>Giá trị đặt hàng trung bình cao hơn</h3>
+                      </div>
                     </div>
                   </div>
                 </div>
               </Col>
             </Row>
           </div>
-        </div>
+        </div> */}
+
         <div className="others-section">
           <div className="background"></div>
-          <div className="section-container">
-            <div className="section-5">
+          <div className="section-5">
+            <div className="section-container">
               <div className="top-section-5">
                 <Row>
-                  <Col span={8}>
+                  <Col lg={8} sm={24}>
                     <div className="img-background"></div>
                   </Col>
-                  <Col span={16}>
+                  <Col lg={16} sm={24}>
                     <div className="title">
                       <h2>Tích hợp liền mạch với cửa hàng của bạn</h2>
                     </div>
@@ -220,36 +234,45 @@ const merchant = () => {
                   </Col>
                 </Row>
               </div>
+
               <div className="connection-top-bottom">
                 <div className="img-background"></div>
                 <div className="QR-code"></div>
               </div>
+
               <div className="bottom-section-5">
                 <Row>
-                  <Col span={8} className="bottom">
-                    <div className="title">
-                      <h2>
-                        Chúng tôi tiên phong cách thanh toán công bằng hơn
-                      </h2>
-                    </div>
-                    <div className="description">
-                      <p>
-                        Giờ đây bạn có thể bán cho khách hàng với{" "}
-                        <strong>Levera Pay</strong>.
-                      </p>
+                  <Col lg={10} sm={24} className="bottom">
+                    <div className="wrapper">
+                      <div className="title">
+                        <h2>
+                          Chúng tôi tiên phong cách thanh toán công bằng hơn
+                        </h2>
+                      </div>
+                      <div className="description">
+                        <p>
+                          Giờ đây bạn có thể bán cho khách hàng với{" "}
+                          <strong>Levera Pay</strong>.
+                        </p>
+                      </div>
                     </div>
                   </Col>
-                  <Col span={16} className="bottom">
+                  <Col lg={14} sm={24} className="bottom">
                     <div className="img-background"></div>
                   </Col>
-                  <div className="img-backgrounds"></div>
+                  <div className="img-backgrounds small"></div>
                 </Row>
               </div>
+            
             </div>
-            <div className="section-6">
+          </div>
+
+          <div className="section-6">
+            <div className="section-container">
               <div className="title">
                 <h1>Mua sắm cùng Levera Pay</h1>
               </div>
+
               <div className="list-brands">
                 <ul>
                   <li className="p1">
@@ -279,17 +302,22 @@ const merchant = () => {
                 </ul>
               </div>
             </div>
-            <div className="last-section">
+          </div>
+
+          <div className="last-section">
+            <div className="section-container">
               <div className="wrapper">
                 <div className="online-shop">
                   <div className="img-background"></div>
                   <h2>Bạn có cửa hàng trực tuyến</h2>
                 </div>
+
                 <div className="description">
                   <p>
                     Thêm lựa chọn thanh toán mà khách hàng của bạn hẳn sẽ thích!
                   </p>
                 </div>
+
                 <div className="button-start">
                   <Button
                     type="primary"
@@ -304,6 +332,7 @@ const merchant = () => {
             </div>
           </div>
         </div>
+      
       </div>
     </Layout>
   );
