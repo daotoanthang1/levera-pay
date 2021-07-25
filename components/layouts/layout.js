@@ -45,7 +45,7 @@ const layout = ({ children }) => {
     switch (true) {
       case localtion.asPath === "/merchant":
         return "1";
-      case localtion.asPath === "/customers":
+      case localtion.asPath === "/":
         return "2";
       case localtion.asPath === "/FAQ":
         return "3";
@@ -198,7 +198,7 @@ const layout = ({ children }) => {
                       alignItems: "center",
                     }}
                   >
-                    <div className="button-start">
+                    <div className="button-start-x">
                       <Button
                         type="primary"
                         size="large"
@@ -290,7 +290,7 @@ const layout = ({ children }) => {
                   </Link>
                 </Menu.Item>
                 <Menu.Item key="2">
-                  <Link href="customers">
+                  <Link href="/">
                     <a>Người mua</a>
                   </Link>
                 </Menu.Item>

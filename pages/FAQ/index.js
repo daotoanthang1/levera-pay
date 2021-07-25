@@ -1,18 +1,7 @@
-import { Component } from "react";
-import { Form, Input, Button, message, Row, Col, Icon } from "antd";
 import {
-  UserOutlined,
-  LockOutlined,
-  ArrowRightOutlined,
-  FacebookOutlined,
-  PlusOutlined,
-  CheckCircleTwoTone,
+  CheckCircleTwoTone, PlusOutlined
 } from "@ant-design/icons";
 import levera from "hocs/whoami";
-import axios from "axios";
-import Link from "next/link";
-import { Fragment } from "react-is";
-import { upperCase } from "lodash";
 import Layout from "../../components/layouts/layout";
 
 const FAQ = () => {
